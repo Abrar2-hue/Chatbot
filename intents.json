@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "how are you", "good morning", "good afternoon"],
+            "responses": ["Hello! How can I assist you?", "Hi there! How can I help?", "Good day! How may I be of service?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "farewell"],
+            "responses": ["Goodbye! Have a great day!", "Take care and farewell!", "See you later!", "Goodbye! Feel free to come back anytime."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks", "thanks a lot", "thank you very much"],
+            "responses": ["You're welcome!", "You're most welcome!", "No problem at all. Happy to help!", "Glad I could assist you!"]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": ["who are you", "what's your name", "tell me about yourself"],
+            "responses": ["I am a chatbot designed to assist and provide information.", "I'm an AI language model here to help you.", "I am an AI assistant developed by OpenAI.", "I'm just a virtual assistant but happy to help with your questions!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "can you help me", "I need assistance"],
+            "responses": ["Of course! I'm here to help. What do you need assistance with?", "Sure thing! Tell me what you need help with.", "I'm here to assist you. Please let me know what you require help with."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like", "weather forecast", "current weather"],
+            "responses": ["I'm sorry, but I am not equipped to provide real-time weather updates.", "For accurate weather information, please check a reliable weather website or app.", "I don't have access to real-time data, but I can answer other questions you might have!"]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["tell me a joke", "give me a funny joke", "joke of the day"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "Why did the bicycle fall over? It was two-tired!"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it", "current time", "time right now"],
+            "responses": ["I'm sorry, but I don't have access to real-time data, including the current time.", "I'm afraid I can't tell you the current time as I am a language model without real-time capabilities."]
+        }
+    ]
+}
